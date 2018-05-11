@@ -81,6 +81,7 @@ ARCHIVE = (
     archive.Ar(),
     archive.Z(),
     archive.Lz(),
+    archive.Elf()
 )
 
 # Expose supported type matchers
